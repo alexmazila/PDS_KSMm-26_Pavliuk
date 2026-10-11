@@ -1,0 +1,2 @@
+[console_scripts]
+motion_node = motion_control.motion_node:main

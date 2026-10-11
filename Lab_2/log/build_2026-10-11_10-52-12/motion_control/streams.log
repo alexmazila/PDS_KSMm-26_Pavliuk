@@ -1,0 +1,35 @@
+[0.707s] Invoking command in '/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/motion_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motion_control build --build-base /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build install --record /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/install.log --install-scripts $base/lib/motion_control --single-version-externally-managed install_data
+[0.874s] running egg_info
+[0.883s] creating ../build/motion_control/motion_control.egg-info
+[0.883s] writing ../build/motion_control/motion_control.egg-info/PKG-INFO
+[0.884s] writing dependency_links to ../build/motion_control/motion_control.egg-info/dependency_links.txt
+[0.885s] writing entry points to ../build/motion_control/motion_control.egg-info/entry_points.txt
+[0.885s] writing requirements to ../build/motion_control/motion_control.egg-info/requires.txt
+[0.885s] writing top-level names to ../build/motion_control/motion_control.egg-info/top_level.txt
+[0.885s] writing manifest file '../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[0.910s] reading manifest file '../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[0.912s] writing manifest file '../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[0.912s] running build
+[0.912s] running build_py
+[0.912s] creating /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build/lib/motion_control
+[0.912s] copying motion_control/__init__.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build/lib/motion_control
+[0.912s] copying motion_control/motion_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build/lib/motion_control
+[0.913s] copying motion_control/py.typed -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build/lib/motion_control
+[0.913s] running install
+[0.916s] running install_lib
+[0.926s] creating /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages/motion_control
+[0.926s] copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build/lib/motion_control/py.typed -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages/motion_control
+[0.927s] copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build/lib/motion_control/__init__.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages/motion_control
+[0.927s] copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build/lib/motion_control/motion_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages/motion_control
+[0.928s] byte-compiling /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages/motion_control/__init__.py to __init__.cpython-314.pyc
+[0.928s] byte-compiling /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages/motion_control/motion_node.py to motion_node.cpython-314.pyc
+[0.928s] running install_data
+[0.928s] creating /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/share/ament_index/resource_index/packages
+[0.929s] copying resource/motion_control -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/share/ament_index/resource_index/packages
+[0.929s] copying package.xml -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/share/motion_control
+[0.929s] running install_egg_info
+[0.940s] Copying ../build/motion_control/motion_control.egg-info to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages/motion_control-0.0.0-py3.14.egg-info
+[0.941s] running install_scripts
+[0.990s] Installing motion_node script to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/motion_control
+[0.990s] writing list of installed files to '/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/install.log'
+[1.009s] Invoked command in '/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/motion_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/install/motion_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motion_control build --build-base /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/build install --record /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_2/build/motion_control/install.log --install-scripts $base/lib/motion_control --single-version-externally-managed install_data
