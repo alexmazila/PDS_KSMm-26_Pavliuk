@@ -16,10 +16,10 @@ class RobotGuiNode(Node):
         # Publisher на /cmd_vel для керування
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
         
-        # ДОДАНО: Publisher на /motion_status для публікації статусу кнопок
+        # Publisher на /motion_status для публікації статусу кнопок
         self.status_publisher = self.create_publisher(String, '/motion_status', 10)
         
-        # Підписка на топік статусу (для відображення у власному вікні)
+        # Підписка на топік статусу
         self.subscription = self.create_subscription(
             String,
             '/motion_status',
@@ -32,13 +32,13 @@ class RobotGuiNode(Node):
         self.angular_speed = 0.6
 
     def handle_button_press(self, linear_x, angular_z, button_name):
-        # 1. Публікуємо швидкість у /cmd_vel
+        # Публікуємо швидкість у /cmd_vel
         twist_msg = Twist()
         twist_msg.linear.x = float(linear_x)
         twist_msg.angular.z = float(angular_z)
         self.publisher_.publish(twist_msg)
         
-        # 2. Публікуємо назву кнопки у /motion_status
+        # Публікуємо назву кнопки у /motion_status
         status_msg = String()
         status_msg.data = f"Натиснуто: {button_name}"
         self.status_publisher.publish(status_msg)
