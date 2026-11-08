@@ -1,0 +1,2 @@
+[console_scripts]
+sensor_node = sensor_node.sensor_node:main

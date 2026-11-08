@@ -1,0 +1,26 @@
+[0.713s] Invoking command in '/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/sensor_node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/install/sensor_node/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensor_node build --build-base /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/build install --record /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/install.log --install-scripts $base/lib/sensor_node --single-version-externally-managed install_data
+[0.990s] running egg_info
+[1.005s] writing ../build/sensor_node/sensor_node.egg-info/PKG-INFO
+[1.005s] writing dependency_links to ../build/sensor_node/sensor_node.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../build/sensor_node/sensor_node.egg-info/entry_points.txt
+[1.006s] writing requirements to ../build/sensor_node/sensor_node.egg-info/requires.txt
+[1.006s] writing top-level names to ../build/sensor_node/sensor_node.egg-info/top_level.txt
+[1.046s] reading manifest file '../build/sensor_node/sensor_node.egg-info/SOURCES.txt'
+[1.046s] writing manifest file '../build/sensor_node/sensor_node.egg-info/SOURCES.txt'
+[1.046s] running build
+[1.046s] running build_py
+[1.046s] copying sensor_node/sensor_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/build/lib/sensor_node
+[1.046s] copying sensor_node/__init__.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/build/lib/sensor_node
+[1.047s] copying sensor_node/py.typed -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/build/lib/sensor_node
+[1.047s] running install
+[1.050s] running install_lib
+[1.061s] running install_data
+[1.062s] copying resource/sensor_node -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/install/sensor_node/share/ament_index/resource_index/packages
+[1.062s] copying package.xml -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/install/sensor_node/share/sensor_node
+[1.062s] running install_egg_info
+[1.073s] removing '/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/install/sensor_node/lib/python3.14/site-packages/sensor_node-0.0.0-py3.14.egg-info' (and everything under it)
+[1.073s] Copying ../build/sensor_node/sensor_node.egg-info to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/install/sensor_node/lib/python3.14/site-packages/sensor_node-0.0.0-py3.14.egg-info
+[1.075s] running install_scripts
+[1.127s] Installing sensor_node script to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/install/sensor_node/lib/sensor_node
+[1.127s] writing list of installed files to '/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/install.log'
+[1.157s] Invoked command in '/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/sensor_node' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/install/sensor_node/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensor_node build --build-base /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/build install --record /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_4/build/sensor_node/install.log --install-scripts $base/lib/sensor_node --single-version-externally-managed install_data
