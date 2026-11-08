@@ -1,0 +1,5 @@
+[console_scripts]
+gui_node = motion_recorder.gui_node:main
+motion_node = motion_recorder.motion_node:main
+player_node = motion_recorder.player_node:main
+recorder_node = motion_recorder.recorder_node:main

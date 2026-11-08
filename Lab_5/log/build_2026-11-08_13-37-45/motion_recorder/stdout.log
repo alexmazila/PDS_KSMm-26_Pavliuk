@@ -1,0 +1,45 @@
+running egg_info
+creating ../build/motion_recorder/motion_recorder.egg-info
+writing ../build/motion_recorder/motion_recorder.egg-info/PKG-INFO
+writing dependency_links to ../build/motion_recorder/motion_recorder.egg-info/dependency_links.txt
+writing entry points to ../build/motion_recorder/motion_recorder.egg-info/entry_points.txt
+writing requirements to ../build/motion_recorder/motion_recorder.egg-info/requires.txt
+writing top-level names to ../build/motion_recorder/motion_recorder.egg-info/top_level.txt
+writing manifest file '../build/motion_recorder/motion_recorder.egg-info/SOURCES.txt'
+reading manifest file '../build/motion_recorder/motion_recorder.egg-info/SOURCES.txt'
+writing manifest file '../build/motion_recorder/motion_recorder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder
+copying motion_recorder/player_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder
+copying motion_recorder/__init__.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder
+copying motion_recorder/recorder_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder
+copying motion_recorder/motion_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder
+copying motion_recorder/gui_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder
+copying motion_recorder/py.typed -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder
+running install
+running install_lib
+creating /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder
+copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder/py.typed -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder
+copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder/player_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder
+copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder/__init__.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder
+copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder/recorder_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder
+copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder/motion_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder
+copying /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/build/lib/motion_recorder/gui_node.py -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder
+byte-compiling /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder/player_node.py to player_node.cpython-314.pyc
+byte-compiling /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder/recorder_node.py to recorder_node.cpython-314.pyc
+byte-compiling /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder/motion_node.py to motion_node.cpython-314.pyc
+byte-compiling /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder/gui_node.py to gui_node.cpython-314.pyc
+running install_data
+creating /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/share/ament_index/resource_index/packages
+copying resource/motion_recorder -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/share/ament_index/resource_index/packages
+copying package.xml -> /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/share/motion_recorder
+running install_egg_info
+Copying ../build/motion_recorder/motion_recorder.egg-info to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/python3.14/site-packages/motion_recorder-0.0.0-py3.14.egg-info
+running install_scripts
+Installing gui_node script to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/motion_recorder
+Installing motion_node script to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/motion_recorder
+Installing player_node script to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/motion_recorder
+Installing recorder_node script to /home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/install/motion_recorder/lib/motion_recorder
+writing list of installed files to '/home/alexmazila/Documents/PDS_KSMm-26_Pavliuk/Lab_5/build/motion_recorder/install.log'
